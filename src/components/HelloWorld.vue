@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <form name="contact" data-netlify="true">
+    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field">
       <p>
         <label>Your Name: <input type="text" name="name" /></label>
       </p>
